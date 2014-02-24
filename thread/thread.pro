@@ -8,3 +8,4 @@ LIBS += -L/home/zdd/boost_1_55_0/stage/lib/ \
 
 SOURCES += main.cpp
 
+
