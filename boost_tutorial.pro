@@ -2,4 +2,5 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     thread \
-    smart_pointer
+    smart_pointer \
+    property_tree

@@ -1,3 +1,10 @@
+/*
+ * boost smart pointer tutorial
+ *
+ * zdd / zddhub@gmail.com
+ * https://github.com/zddhub/boost_tutorial
+ */
+
 #include <string>
 #include <iostream>
 using namespace std;
