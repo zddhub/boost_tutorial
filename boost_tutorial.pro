@@ -4,4 +4,5 @@ SUBDIRS += \
     thread \
     smart_pointer \
     property_tree \
-    any
+    any \
+    make_shared
