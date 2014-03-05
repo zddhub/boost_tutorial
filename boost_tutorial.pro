@@ -5,4 +5,5 @@ SUBDIRS += \
     smart_pointer \
     property_tree \
     any \
-    make_shared
+    make_shared \
+    function

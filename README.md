@@ -11,3 +11,4 @@ includes:
 * boost::property_tree : parser JSON file
 * boost::any
 * boost::make_shared
+* boost::function (callback)
