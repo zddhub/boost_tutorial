@@ -1,10 +1,10 @@
 TEMPLATE = app
 CONFIG += console
 
-INCLUDEPATH += /home/zdd/boost_1_55_0 \
+INCLUDEPATH += /usr/include \
 
-LIBS += -L/home/zdd/boost_1_55_0/stage/lib/ \
-            -lboost_thread -lboost_system
+LIBS += -L/usr/lib/ \
+            -lboost_thread-mt -lboost_system-mt
 
 SOURCES += main.cpp
 
