@@ -1,4 +1,4 @@
-boost_tutorial
+boost_tutorial [![Build Status](https://travis-ci.org/zddhub/boost_tutorial.svg?branch=master)](https://travis-ci.org/zddhub/boost_tutorial)
 ==============
 
 A simple tutorial of boost
