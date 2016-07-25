@@ -6,11 +6,11 @@
  */
 
 #include <iostream>
-#include <string>
-
-using namespace std;
-
 #include <boost/thread.hpp>
+
+using std::cout;
+using std::cin;
+using std::endl;
 
 //#1
 void run()

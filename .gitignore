@@ -9,17 +9,11 @@
 *.so
 *.dll
 *.dylib
-
-# Qt-es
-
-*.pro.user
-*.pro.user.*
-moc_*.cpp
-qrc_*.cpp
-ui_*.h
-Makefile*
-*-build-*
-
-# QtCreator
-
-*.autosave
+*.json
+test
+any/build
+function/build
+make_shared/build
+property_tree/build
+smart_pointer/build
+thread/build
