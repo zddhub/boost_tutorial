@@ -142,12 +142,12 @@ int main()
     th2.join();
     cout <<"x+y="<<fi.get()<<endl;
 
-    boost::packaged_task<int> pt_cls(boost::bind<int>(&Class::add, &cls, 1, 2));
-    boost::unique_future<int> fi_cls = pt_cls.get_future();
-    boost::thread th2_cls(boost::move(pt_cls));
-    fi_cls.wait();
-    th2_cls.join();
-    cout <<"x+y="<<fi_cls.get()<<endl;
+   // boost::packaged_task<int> pt_cls(boost::bind<int>(&Class::add, &cls, 1, 2));
+   // boost::unique_future<int> fi_cls = pt_cls.get_future();
+   // boost::thread th2_cls(boost::move(pt_cls));
+   // fi_cls.wait();
+   // th2_cls.join();
+   // cout <<"x+y="<<fi_cls.get()<<endl;
 
     /*
      *related functions
